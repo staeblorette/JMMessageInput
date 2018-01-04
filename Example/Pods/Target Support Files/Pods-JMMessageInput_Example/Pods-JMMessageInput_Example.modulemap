@@ -1,0 +1,6 @@
+framework module Pods_JMMessageInput_Example {
+  umbrella header "Pods-JMMessageInput_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

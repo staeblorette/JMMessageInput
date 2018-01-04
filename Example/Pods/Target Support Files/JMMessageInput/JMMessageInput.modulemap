@@ -1,0 +1,6 @@
+framework module JMMessageInput {
+  umbrella header "JMMessageInput-umbrella.h"
+
+  export *
+  module * { export * }
+}
