@@ -12,9 +12,12 @@
 		58F91B639311D7AB71F77269D8C57FD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		59034615E8A12F4972805E2528446F31 /* Pods-JMMessageInput_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC118CB6431090883FF596DEFFEBCFF8 /* Pods-JMMessageInput_Example-dummy.m */; };
 		5C70D106A691101E96EDE8F8AFD848DB /* Pods-JMMessageInput_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CA0DA1776920231EC666501CEBF25E /* Pods-JMMessageInput_Tests-dummy.m */; };
+		8BF3A3131FFDB17900912BB5 /* JMMessageInputBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A30F1FFDB17900912BB5 /* JMMessageInputBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A3141FFDB17900912BB5 /* JMMessageInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A3101FFDB17900912BB5 /* JMMessageInputBar.m */; };
+		8BF3A3151FFDB17900912BB5 /* JMMessageInputController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF3A3111FFDB17900912BB5 /* JMMessageInputController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF3A3161FFDB17900912BB5 /* JMMessageInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3A3121FFDB17900912BB5 /* JMMessageInputController.m */; };
 		A08C32227808B1CC1631FA297D9ABF47 /* Pods-JMMessageInput_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7B11DEFEC2A7D70BD92565D4D209EA /* Pods-JMMessageInput_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4CAAB3A94C96C2647C6F1DCE6762211 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B31BAFA73AEF2F894A2E6857CB9C51A5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B236A2A9D35740EF495ABA08DEE75 /* ReplaceMe.m */; };
 		E74A0B6801B1EFBBDAA01E529A7F7466 /* Pods-JMMessageInput_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03495BC68DE5EEE897645A17D244DA4F /* Pods-JMMessageInput_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECCB41942AEE1DF08F67E2146DFCC0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -36,30 +39,34 @@
 		20CA0DA1776920231EC666501CEBF25E /* Pods-JMMessageInput_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMMessageInput_Tests-dummy.m"; sourceTree = "<group>"; };
 		3362AB35FB1FB9D58E19707E4377C34F /* Pods-JMMessageInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMMessageInput_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4B1CA6CBB520730A81564CB383F57CEA /* Pods-JMMessageInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMMessageInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4B5B236A2A9D35740EF495ABA08DEE75 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JMMessageInput/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		52DE17FAF576551CDF68BBC6F9DC563F /* Pods-JMMessageInput_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMMessageInput_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		548C48025F66EDD65ABF33428C8A4CBA /* Pods-JMMessageInput_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMMessageInput_Tests-resources.sh"; sourceTree = "<group>"; };
 		5CE2BC67A188B7E4BA3F4FBCA4EB6CEB /* Pods-JMMessageInput_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMMessageInput_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68F4DE435E959A24303831FFA18EBC72 /* Pods-JMMessageInput_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMMessageInput_Example.modulemap"; sourceTree = "<group>"; };
+		68F4DE435E959A24303831FFA18EBC72 /* Pods-JMMessageInput_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JMMessageInput_Example.modulemap"; sourceTree = "<group>"; };
 		6CA296754F803BC0158CD951AF0EB438 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7090B71DBC5C6D4432BAE904E472CD6D /* Pods-JMMessageInput_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMMessageInput_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7EE675FE998E49010BC2023EFC34B5F1 /* JMMessageInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMMessageInput-dummy.m"; sourceTree = "<group>"; };
 		8BC8DAE50A884BBB61A9C41DB47D0ACE /* Pods-JMMessageInput_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMMessageInput_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BF3A30E1FFDB17900912BB5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		8BF3A30F1FFDB17900912BB5 /* JMMessageInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMessageInputBar.h; sourceTree = "<group>"; };
+		8BF3A3101FFDB17900912BB5 /* JMMessageInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMessageInputBar.m; sourceTree = "<group>"; };
+		8BF3A3111FFDB17900912BB5 /* JMMessageInputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMessageInputController.h; sourceTree = "<group>"; };
+		8BF3A3121FFDB17900912BB5 /* JMMessageInputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMessageInputController.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C47E750CC9CC86DB0FFCE706A64959 /* Pods-JMMessageInput_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMMessageInput_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A9B7215EF120BAAED078D456C36FC70A /* JMMessageInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMessageInput-umbrella.h"; sourceTree = "<group>"; };
 		B111CA80C5BD1A3269B8E0D0D1D0677B /* Pods-JMMessageInput_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMMessageInput_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B2D140A7D6E9FD29A55B1AA90078E71A /* JMMessageInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JMMessageInput.modulemap; sourceTree = "<group>"; };
+		B2D140A7D6E9FD29A55B1AA90078E71A /* JMMessageInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JMMessageInput.modulemap; sourceTree = "<group>"; };
 		B9960C27B4D13582D1020BFED4BDBDFE /* Pods-JMMessageInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMMessageInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF13159EA04F8FEA7BAB57C8F9C8E111 /* Pods-JMMessageInput_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMMessageInput_Example-resources.sh"; sourceTree = "<group>"; };
 		BF7B11DEFEC2A7D70BD92565D4D209EA /* Pods-JMMessageInput_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMMessageInput_Example-umbrella.h"; sourceTree = "<group>"; };
-		C03BC7A7F356348080D57726107E1BF5 /* Pods_JMMessageInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMMessageInput_Tests.framework; path = "Pods-JMMessageInput_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03BC7A7F356348080D57726107E1BF5 /* Pods_JMMessageInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMMessageInput_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A394F1A714D3E2E0B1913EA0C135E4 /* JMMessageInput.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMMessageInput.xcconfig; sourceTree = "<group>"; };
-		D3CF5371563BC20053E68A24CD2A45B1 /* JMMessageInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMMessageInput.framework; path = JMMessageInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CF5371563BC20053E68A24CD2A45B1 /* JMMessageInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMMessageInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5980CAEDC662A500DAC903A908AEA5A /* JMMessageInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMessageInput-prefix.pch"; sourceTree = "<group>"; };
-		EBFCDC0E62A7FCE68883B2C6CA56FACE /* Pods-JMMessageInput_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMMessageInput_Tests.modulemap"; sourceTree = "<group>"; };
-		F213817F8A5D3D9D03AC0E8DA7DAC4C4 /* Pods_JMMessageInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMMessageInput_Example.framework; path = "Pods-JMMessageInput_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFCDC0E62A7FCE68883B2C6CA56FACE /* Pods-JMMessageInput_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JMMessageInput_Tests.modulemap"; sourceTree = "<group>"; };
+		F213817F8A5D3D9D03AC0E8DA7DAC4C4 /* Pods_JMMessageInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMMessageInput_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AD2C0131406975AAF7C2F438758947 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC118CB6431090883FF596DEFFEBCFF8 /* Pods-JMMessageInput_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMMessageInput_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +102,7 @@
 		01B725A0BECBB801F4DE0D929CBBE35A /* JMMessageInput */ = {
 			isa = PBXGroup;
 			children = (
-				4B5B236A2A9D35740EF495ABA08DEE75 /* ReplaceMe.m */,
+				8BF3A30C1FFDB14600912BB5 /* JMMessageInput */,
 				B33709267F00296ECE0D5F4705009FB1 /* Support Files */,
 			);
 			name = JMMessageInput;
@@ -147,6 +154,26 @@
 				36CC7ED3868F0FDFB6B339A507BAC682 /* Products */,
 				9E4D8EE5B9085C5AFC6838620E9B5324 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8BF3A30C1FFDB14600912BB5 /* JMMessageInput */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3A30D1FFDB17900912BB5 /* Classes */,
+			);
+			path = JMMessageInput;
+			sourceTree = "<group>";
+		};
+		8BF3A30D1FFDB17900912BB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3A30E1FFDB17900912BB5 /* .gitkeep */,
+				8BF3A30F1FFDB17900912BB5 /* JMMessageInputBar.h */,
+				8BF3A3101FFDB17900912BB5 /* JMMessageInputBar.m */,
+				8BF3A3111FFDB17900912BB5 /* JMMessageInputController.h */,
+				8BF3A3121FFDB17900912BB5 /* JMMessageInputController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		9E4D8EE5B9085C5AFC6838620E9B5324 /* Targets Support Files */ = {
@@ -213,7 +240,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF3A3131FFDB17900912BB5 /* JMMessageInputBar.h in Headers */,
 				40CE335655B5095DB1246C477E356605 /* JMMessageInput-umbrella.h in Headers */,
+				8BF3A3151FFDB17900912BB5 /* JMMessageInputController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,8 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF3A3141FFDB17900912BB5 /* JMMessageInputBar.m in Sources */,
+				8BF3A3161FFDB17900912BB5 /* JMMessageInputController.m in Sources */,
 				494DB97846077A00FE2E60C13B3D7A89 /* JMMessageInput-dummy.m in Sources */,
-				B31BAFA73AEF2F894A2E6857CB9C51A5 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
