@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JMMessageInput_Example' do
+  pod 'JMMessageInput', :path => '../'
+
+  target 'JMMessageInput_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
