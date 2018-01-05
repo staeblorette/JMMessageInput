@@ -7,6 +7,11 @@
 
 Adds a messanger like input. You have all seen how this works.
 
+![Alt text](/../screenshots/Screenshots/ExpandingInputBar.png?raw=true "Input bar resizes on long inputs")
+![Alt text](/../screenshots/Screenshots/ExpandedKeyboardIPhoneX?raw=true "Bar can be configured in storyboard")
+![Alt text](/../screenshots/Screenshots/CollapsedKeyboardIPhone8?raw=true)
+
+
 ## Features
 
 * Input bar moves along keyboard
