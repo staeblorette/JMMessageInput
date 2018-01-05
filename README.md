@@ -5,6 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/JMMessageInput.svg?style=flat)](http://cocoapods.org/pods/JMMessageInput)
 [![Platform](https://img.shields.io/cocoapods/p/JMMessageInput.svg?style=flat)](http://cocoapods.org/pods/JMMessageInput)
 
+Adds a messanger like input. You have all seen how this works.
+
+## Features
+
+* Input bar moves along keyboard
+* Dynamic resizing of the input bar when text extends over a line
+* Controll of resizing behaviour with delegates
+* Supports Dynamic Type
+* Manual keyboard dismissal with gesture
+* Aligning input controlls to baseline
+* Respects Safe Area guides
+* Full control of visuals with storyboard or programatically
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,6 +32,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'JMMessageInput'
 ```
+
+The framework has a dependency on 'JMContainerControllers'
 
 ## Author
 
