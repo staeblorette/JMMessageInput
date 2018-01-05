@@ -7,51 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02349FA9D2901D27BE3C3BCC278356F6 /* JMDocumentViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 04D7A21650B0FA1C7649AAB984B4E78B /* JMDocumentViewController.xib */; };
-		07DCAF7C6553E6083970DFEADA4A59E4 /* JMContainerHeaderView_Internal.xib in Sources */ = {isa = PBXBuildFile; fileRef = 38823BFA5C45523BD4432EAC21671B0A /* JMContainerHeaderView_Internal.xib */; };
-		0BA30F4DA9AA48F33391B9BB16DE57FF /* UIView+Embedding.h in Headers */ = {isa = PBXBuildFile; fileRef = 37985370E24ECA56F2B3A335FDDD2C28 /* UIView+Embedding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CE51F6BC779679A69574943D3365F1B /* JMStackContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 234E1C487331A99E254279EA2058B5F5 /* JMStackContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14DB952AD0E101F44AD3CB9E26D96C33 /* JMContainerHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = E94AC5FC646B8B4C50CE924BD3146E6D /* JMContainerHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01369C57BB73C6F724F3479DC73A7473 /* JMStackContainer_Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E2D34438D25E36D485B668136CDD16 /* JMStackContainer_Internal.m */; };
+		0A9BCCF8F62D4A762927F096972ACFCC /* JMStackContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BD69C0B79B3BCA8F442DA72F8B263C6F /* JMStackContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A45FFE90AED4E778E1B84A20C6AD59A /* Pods-JMMessageInput_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7B11DEFEC2A7D70BD92565D4D209EA /* Pods-JMMessageInput_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D21BC1A4FB0952B13CEC2B512E67039 /* JMContainerControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD278B12D03974B4F264DA7DEF5CD62 /* JMContainerControllers.framework */; };
 		1D597D9AD5136A2A9FABF7BAF37FBFE4 /* JMContainerControllers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4D33C0C7029CBF5309A30C9EF62A0F /* JMContainerControllers.framework */; };
-		23427F56BCD0EAEAA0442F988975CFFC /* JMMessageInputController.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E06DFAADB75858C386BFB71A84D160 /* JMMessageInputController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AA8CA52830A51B22B575A54A0874285 /* JMSegueTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E7A7CC841E3E01871CDEA39B9247E /* JMSegueTrigger.m */; };
-		35FA3735D53074566D315F9C7820E81E /* JMSegueTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8A62859D6F1BF300BB74A3D6319C18 /* JMSegueTrigger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42782B056A77DAEF041DE65D89A2A2E7 /* JMContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FD83C46561C4E687001209A68C93C /* JMContainerViewController.m */; };
-		4316D095C1C89AC8B07497426045971F /* JMContainerControllers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 989554473EDE769559370CEF1C6EA361 /* JMContainerControllers-dummy.m */; };
-		43E720CF2035F209DE1D621C5BFA84C9 /* JMMessageInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 465113CE658507B8C35900AB9E7B3E64 /* JMMessageInput-dummy.m */; };
-		4C9B8FA1D3B75950A7FD4BCEDB2824B6 /* JMEmbedSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D599842570F2EEA168A68A4D8D5E2596 /* JMEmbedSegue.m */; };
+		1DDF4508D0BBE70D24CDB54320E8AF74 /* JMContainerHeaderView_Internal.xib in Sources */ = {isa = PBXBuildFile; fileRef = CC2180B99A270F8FC654F7BE9B58B266 /* JMContainerHeaderView_Internal.xib */; };
+		23427F56BCD0EAEAA0442F988975CFFC /* JMMessageInputController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2323BA80E41B13C526FE301B33C405 /* JMMessageInputController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C16BA9894FFAAF903B9194427F6FD35 /* JMStackContainer_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3841631C0B135FCDBFC363B9B509BB6A /* JMStackContainer_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DAB3F68328BCD8FCB1D10701F36E607 /* JMDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C51D09DB4235F370FB047B587C8ED19 /* JMDocumentViewController.m */; };
+		41736ACFCC886EB3BF2AF6124B1ECAE1 /* JMContainerControllers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9B204989888FAECD20E359A86829D3 /* JMContainerControllers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43E720CF2035F209DE1D621C5BFA84C9 /* JMMessageInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDE50C35B29B628286D379E2D8BBE30 /* JMMessageInput-dummy.m */; };
+		4AFE7382A291DAD77DCFC5CCF48EB4F3 /* JMHairlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9F868722FC7A965D1DB816882E01F1 /* JMHairlineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56E03867A6FC98EA32B5CFE3238C4B3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004FD37BE13C4D86CF17184CEE591850 /* UIKit.framework */; };
-		5A3B2D29D66BDDF3CFA60F0487F57208 /* JMContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E91EFC56BEC1F8EDECEBF52E1B14815A /* JMContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		573B260663DB03EBA09AA975A48C768C /* JMDocumentViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 890AB3AFFCC0F8E1A650DB4AB4085E41 /* JMDocumentViewController.xib */; };
+		57AF62B5F9FE27276FBB833E9030D497 /* JMStackContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD415F25F10E03A849424717EEF8FE7 /* JMStackContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0B09ED40B5722C28BB1FBD0ECDE5D2 /* JMDocumentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BACDA058E6B99A6A652CE0F7C962F830 /* JMDocumentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C70D106A691101E96EDE8F8AFD848DB /* Pods-JMMessageInput_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CA0DA1776920231EC666501CEBF25E /* Pods-JMMessageInput_Tests-dummy.m */; };
-		69B3D81DAA0A9CB828505706C36B754D /* UIView+Embedding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9AA4E784BF74D63E6A6BFAD56D2FC /* UIView+Embedding.m */; };
-		6F8A6D04ED884A86B7E920DB86E539E8 /* JMMessageInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B560C01AA41A4BF758BAA4F87A290 /* JMMessageInputBar.m */; };
-		80EE569891C7BC756E34CBC80FA8B552 /* JMStackContainer_Internal.xib in Sources */ = {isa = PBXBuildFile; fileRef = D1E4D06F5A448F5850C63B6E0D3D9FD8 /* JMStackContainer_Internal.xib */; };
-		8205640762A57FF3136BCEF93F7DB2DA /* JMDocumentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 851E7038215EACA7B2E4C6A3D71E2586 /* JMDocumentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87B9B2CAB46B9853F496D15C9F8C39E3 /* JMHairlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B0FB2777EA3ACC076577C1FA2CCC3 /* JMHairlineView.m */; };
-		8FE05242255469A156CF682D03C4EF17 /* JMContainerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C46C95201018D8551B46EFEAF7F918 /* JMContainerHeaderView.m */; };
-		9F059F024A3FC196BAF54DB4F09F0A18 /* JMContainerControllers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDAA8141A150CDDB344D26E056E3FD9 /* JMContainerControllers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4A630B672759B2BE03821C563405508 /* JMMessageInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B28F177BE24DB8F634B90FC9095DD0 /* JMMessageInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE966A28D5788A9B26407BC01E8B069 /* JMContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623CB3D8BB0B92B60E032350F7DADF62 /* JMContainerViewController.m */; };
+		5D185617D6C05BDFBF6CC99FF7C5EBAF /* UIView+Embedding.h in Headers */ = {isa = PBXBuildFile; fileRef = 377113BBAE6CBFF2DB8927B0F90D7BA0 /* UIView+Embedding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6102D6DD11F1EC0CE6ECE6A33ABFB6E8 /* JMContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C563E41F78270F37C8ACA92C6F70B9 /* JMContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B80CD91CDAC09A95963EF31539E297 /* JMHeaderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84217753AA7CF7D208B555347AF1E4 /* JMHeaderLabel.m */; };
+		69EBAEE108A3A520BB7E62976728EB95 /* JMSegueTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = D12175202F1DD457E186A72FA7C4888A /* JMSegueTrigger.m */; };
+		6F8A6D04ED884A86B7E920DB86E539E8 /* JMMessageInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B035F00E0E48FDFF02EFB6E2D706DB /* JMMessageInputBar.m */; };
+		805E277E209D333F31C490FB3B934357 /* JMStackContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4E3871C3786DB4D7BAF3AA99C15A3F /* JMStackContainerViewController.m */; };
+		8389F70515C54FF4AD7554146367068D /* JMStackContainer_Internal.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8B2DC4C85E95AB77D71472547894D5F7 /* JMStackContainer_Internal.xib */; };
+		8922BD884619E256A38835AA6DC3B69F /* UIView+Embedding.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D0BA415B14B10C5A4AA42737B1930A /* UIView+Embedding.m */; };
+		8DE2B0269E8C717062DF405EB342AB3A /* JMEmbedSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 705FC1BF2A53E2F66A24961F7D90067E /* JMEmbedSegue.m */; };
+		9C92B00A270FCF5BA46403FB78649B06 /* JMContainerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7134288B2F283BA184105FCFCE9386 /* JMContainerHeaderView.m */; };
+		A4A630B672759B2BE03821C563405508 /* JMMessageInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 540C539C3AE4F92DFBC25D0E872E7ECC /* JMMessageInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9F8870E826CDC0EEE6C62F53798A29B /* JMHairlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFD3E3E14243B7F583BA4E1AF035DB4 /* JMHairlineView.m */; };
 		AB51B2BB347303DBF28F8BAEB6BF4D36 /* Pods-JMMessageInput_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC118CB6431090883FF596DEFFEBCFF8 /* Pods-JMMessageInput_Example-dummy.m */; };
-		AD74A40934ABAEB2300546AB50E3E826 /* JMMessageInputBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 18523D9C755ABCF92456BA939E89B8D2 /* JMMessageInputBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD74A40934ABAEB2300546AB50E3E826 /* JMMessageInputBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB8E56EA02C32B230349E0C20326724 /* JMMessageInputBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B27874B0C80FAD4C9999099E2C49736F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004FD37BE13C4D86CF17184CEE591850 /* UIKit.framework */; };
 		B47F6506431427CEEBB2056F9EC95CBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51D467CB3B7EF1AC74CD7C5343A0D48 /* Foundation.framework */; };
-		BA942B14989E23A22A4552BEA712D1AE /* JMStackContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DBB0739F0FAE2AC7A68BFD6B6BA3A4 /* JMStackContainerViewController.m */; };
+		BA05C7F49BDC2D3383958CD3C79F51F4 /* JMSegueTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8986538DF1D086AE5ABDCD32A144E13E /* JMSegueTrigger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB3D8126B8A8251C4D82112377A20C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51D467CB3B7EF1AC74CD7C5343A0D48 /* Foundation.framework */; };
-		C395E5A11BC23B795BD1404FB26315A0 /* JMHairlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E48CC1C3993204AB2DC31558FCD324 /* JMHairlineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C62C54DE07B4C607B521CDC8BE9AC39E /* JMStackContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBDF1668E400679E997B5CB66A90142 /* JMStackContainerView.m */; };
-		CC45E177B153799CAB4A3D9EE901C622 /* JMStackContainer_Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C48E670EA07702BEAB15D1E931CF12 /* JMStackContainer_Internal.m */; };
-		CEA8C9FED0B6CF606CCABAD7D98936D7 /* JMHeaderLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DB085B5471CE6E4C513FBAF061C7ABF3 /* JMHeaderLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2CF1316E15D42E4920B8CBBCF3CB97F /* JMDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B54BA0E34626CCED13D0A9A0D9C934 /* JMDocumentViewController.m */; };
+		C5F48B7EA6B7AB46179E511682F7BCEB /* JMContainerHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF33D16443471A0BF6BD23DA9D526BC8 /* JMContainerHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE43083007E38B361770CF2077E1074B /* JMContainerControllers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C221BA06959E89EE904AA01FA7A6E0A /* JMContainerControllers-dummy.m */; };
+		D67A91FA2C242417F8E6A0BEBBEC6A84 /* JMStackContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6507C8BC8290CEF81B781509F7C7E332 /* JMStackContainerView.m */; };
 		DC7F3032FAA5372B43466381E547D1F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51D467CB3B7EF1AC74CD7C5343A0D48 /* Foundation.framework */; };
+		E61D6877D02B09E758B4F9AC76A570E0 /* JMHeaderLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8BB745B95257925C96E8E2750EC1D3 /* JMHeaderLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E74A0B6801B1EFBBDAA01E529A7F7466 /* Pods-JMMessageInput_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03495BC68DE5EEE897645A17D244DA4F /* Pods-JMMessageInput_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBD9362A38479D1A2151486ABC63A324 /* JMMessageInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20472FFD957DD5AB954597803A7C634A /* JMMessageInputController.m */; };
+		EBD9362A38479D1A2151486ABC63A324 /* JMMessageInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2E614D7F33D4CB6BA237C379D89B5E /* JMMessageInputController.m */; };
 		ECCB41942AEE1DF08F67E2146DFCC0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51D467CB3B7EF1AC74CD7C5343A0D48 /* Foundation.framework */; };
-		EFC5E9E96CEE90B8653DFB6AD6B93F42 /* JMEmbedSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E092DDF122C4DCEADE88971F7D1E186 /* JMEmbedSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3651819E8DDDE86F44F205C00F7DABC /* JMHeaderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B5545C7BF4D68612AF1722E3A717F8 /* JMHeaderLabel.m */; };
-		F7801E19BEE4FC013C67747218E7BB16 /* JMStackContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B04DFFF340E196DF280B08963F19E7 /* JMStackContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F99316F87D6FE82B9CED489E930EA8A7 /* JMStackContainer_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC75003FFC20ADD7B8A84FFDB54CBC7 /* JMStackContainer_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE77485C17F247466DACA263E8FF1FCC /* JMEmbedSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A103147F3CEC7021B1F8423D3D08BF3 /* JMEmbedSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,75 +80,75 @@
 
 /* Begin PBXFileReference section */
 		004FD37BE13C4D86CF17184CEE591850 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		00B28F177BE24DB8F634B90FC9095DD0 /* JMMessageInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMessageInput-umbrella.h"; sourceTree = "<group>"; };
 		01E8EEA4EA23E9A04AE91A3760265052 /* Pods-JMMessageInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMMessageInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		03495BC68DE5EEE897645A17D244DA4F /* Pods-JMMessageInput_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMMessageInput_Tests-umbrella.h"; sourceTree = "<group>"; };
-		04D3A7436BDDE5044FC5FAC47409B41F /* JMContainerControllers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMContainerControllers.xcconfig; sourceTree = "<group>"; };
-		04D7A21650B0FA1C7649AAB984B4E78B /* JMDocumentViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = JMDocumentViewController.xib; sourceTree = "<group>"; };
-		13E06DFAADB75858C386BFB71A84D160 /* JMMessageInputController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMMessageInputController.h; path = JMMessageInput/Classes/JMMessageInputController.h; sourceTree = "<group>"; };
-		18523D9C755ABCF92456BA939E89B8D2 /* JMMessageInputBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMMessageInputBar.h; path = JMMessageInput/Classes/JMMessageInputBar.h; sourceTree = "<group>"; };
-		20472FFD957DD5AB954597803A7C634A /* JMMessageInputController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMMessageInputController.m; path = JMMessageInput/Classes/JMMessageInputController.m; sourceTree = "<group>"; };
+		0F2323BA80E41B13C526FE301B33C405 /* JMMessageInputController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMMessageInputController.h; path = JMMessageInput/Classes/JMMessageInputController.h; sourceTree = "<group>"; };
 		20CA0DA1776920231EC666501CEBF25E /* Pods-JMMessageInput_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMMessageInput_Tests-dummy.m"; sourceTree = "<group>"; };
-		20DBB0739F0FAE2AC7A68BFD6B6BA3A4 /* JMStackContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMStackContainerViewController.m; sourceTree = "<group>"; };
-		234E1C487331A99E254279EA2058B5F5 /* JMStackContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMStackContainerViewController.h; sourceTree = "<group>"; };
-		2BC75003FFC20ADD7B8A84FFDB54CBC7 /* JMStackContainer_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMStackContainer_Internal.h; sourceTree = "<group>"; };
-		2FDAA8141A150CDDB344D26E056E3FD9 /* JMContainerControllers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMContainerControllers-umbrella.h"; sourceTree = "<group>"; };
 		3362AB35FB1FB9D58E19707E4377C34F /* Pods-JMMessageInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMMessageInput_Example.release.xcconfig"; sourceTree = "<group>"; };
 		34425BCF3559B53B71D7BCEB7A3381DC /* Pods_JMMessageInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMMessageInput_Tests.framework; path = "Pods-JMMessageInput_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37985370E24ECA56F2B3A335FDDD2C28 /* UIView+Embedding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Embedding.h"; sourceTree = "<group>"; };
-		38823BFA5C45523BD4432EAC21671B0A /* JMContainerHeaderView_Internal.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = JMContainerHeaderView_Internal.xib; sourceTree = "<group>"; };
-		3A79BE1FA522BF6812709F928DF385B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377113BBAE6CBFF2DB8927B0F90D7BA0 /* UIView+Embedding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Embedding.h"; path = "JMContainerControllers/Classes/Base/UIView+Embedding.h"; sourceTree = "<group>"; };
+		3841631C0B135FCDBFC363B9B509BB6A /* JMStackContainer_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMStackContainer_Internal.h; path = JMContainerControllers/Classes/StackingContainer/JMStackContainer_Internal.h; sourceTree = "<group>"; };
+		3C51D09DB4235F370FB047B587C8ED19 /* JMDocumentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMDocumentViewController.m; path = JMContainerControllers/Classes/DocumentContainer/JMDocumentViewController.m; sourceTree = "<group>"; };
 		3DD278B12D03974B4F264DA7DEF5CD62 /* JMContainerControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMContainerControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E84217753AA7CF7D208B555347AF1E4 /* JMHeaderLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMHeaderLabel.m; path = JMContainerControllers/Classes/DocumentContainer/JMHeaderLabel.m; sourceTree = "<group>"; };
 		42A116915C20A2EB0A89BE543A7ACB87 /* JMContainerControllers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMContainerControllers.framework; path = JMContainerControllers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		434193433205D2AE201F4DAB7CBA0E7B /* JMContainerControllers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMContainerControllers-prefix.pch"; sourceTree = "<group>"; };
-		465113CE658507B8C35900AB9E7B3E64 /* JMMessageInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMMessageInput-dummy.m"; sourceTree = "<group>"; };
+		4AB8E56EA02C32B230349E0C20326724 /* JMMessageInputBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMMessageInputBar.h; path = JMMessageInput/Classes/JMMessageInputBar.h; sourceTree = "<group>"; };
 		4B1CA6CBB520730A81564CB383F57CEA /* Pods-JMMessageInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMMessageInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4B49818038E8E1889BD0E9164B1291E6 /* JMMessageInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JMMessageInput.modulemap; sourceTree = "<group>"; };
+		51DAEC346ACDE38D4F2E631038DCB4AC /* JMMessageInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMessageInput-prefix.pch"; sourceTree = "<group>"; };
 		52DE17FAF576551CDF68BBC6F9DC563F /* Pods-JMMessageInput_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMMessageInput_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		52E48CC1C3993204AB2DC31558FCD324 /* JMHairlineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMHairlineView.h; sourceTree = "<group>"; };
+		540C539C3AE4F92DFBC25D0E872E7ECC /* JMMessageInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMessageInput-umbrella.h"; sourceTree = "<group>"; };
 		548C48025F66EDD65ABF33428C8A4CBA /* Pods-JMMessageInput_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMMessageInput_Tests-resources.sh"; sourceTree = "<group>"; };
-		5BC9AA4E784BF74D63E6A6BFAD56D2FC /* UIView+Embedding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Embedding.m"; sourceTree = "<group>"; };
+		56E13024A4FC9B67BBE2A20FF2059DB5 /* JMContainerControllers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JMContainerControllers.modulemap; sourceTree = "<group>"; };
+		5A103147F3CEC7021B1F8423D3D08BF3 /* JMEmbedSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMEmbedSegue.h; path = JMContainerControllers/Classes/Base/JMEmbedSegue.h; sourceTree = "<group>"; };
+		5C221BA06959E89EE904AA01FA7A6E0A /* JMContainerControllers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMContainerControllers-dummy.m"; sourceTree = "<group>"; };
 		5CE2BC67A188B7E4BA3F4FBCA4EB6CEB /* Pods-JMMessageInput_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMMessageInput_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		623CB3D8BB0B92B60E032350F7DADF62 /* JMContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMContainerViewController.m; path = JMContainerControllers/Classes/Base/JMContainerViewController.m; sourceTree = "<group>"; };
+		62C563E41F78270F37C8ACA92C6F70B9 /* JMContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMContainerViewController.h; path = JMContainerControllers/Classes/Base/JMContainerViewController.h; sourceTree = "<group>"; };
+		64D0BA415B14B10C5A4AA42737B1930A /* UIView+Embedding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Embedding.m"; path = "JMContainerControllers/Classes/Base/UIView+Embedding.m"; sourceTree = "<group>"; };
+		6507C8BC8290CEF81B781509F7C7E332 /* JMStackContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMStackContainerView.m; path = JMContainerControllers/Classes/StackingContainer/JMStackContainerView.m; sourceTree = "<group>"; };
+		66E2D34438D25E36D485B668136CDD16 /* JMStackContainer_Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMStackContainer_Internal.m; path = JMContainerControllers/Classes/StackingContainer/JMStackContainer_Internal.m; sourceTree = "<group>"; };
 		68F4DE435E959A24303831FFA18EBC72 /* Pods-JMMessageInput_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMMessageInput_Example.modulemap"; sourceTree = "<group>"; };
-		6B9B0FB2777EA3ACC076577C1FA2CCC3 /* JMHairlineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMHairlineView.m; sourceTree = "<group>"; };
 		6CA296754F803BC0158CD951AF0EB438 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705FC1BF2A53E2F66A24961F7D90067E /* JMEmbedSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMEmbedSegue.m; path = JMContainerControllers/Classes/Base/JMEmbedSegue.m; sourceTree = "<group>"; };
 		7090B71DBC5C6D4432BAE904E472CD6D /* Pods-JMMessageInput_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMMessageInput_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		72B54BA0E34626CCED13D0A9A0D9C934 /* JMDocumentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMDocumentViewController.m; sourceTree = "<group>"; };
-		75AFDA970D414A377713C601E6DEC9A0 /* JMMessageInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JMMessageInput.modulemap; sourceTree = "<group>"; };
-		778202FA5FEF9AEC0B6C777C3ED7144F /* JMContainerControllers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JMContainerControllers.modulemap; sourceTree = "<group>"; };
-		851E7038215EACA7B2E4C6A3D71E2586 /* JMDocumentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMDocumentViewController.h; sourceTree = "<group>"; };
-		8A4BD662E9B1B4F12DC00A93BDBE6173 /* JMMessageInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMessageInput-prefix.pch"; sourceTree = "<group>"; };
+		774F71747170ADA33D39C5219F22F107 /* JMContainerControllers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMContainerControllers.xcconfig; sourceTree = "<group>"; };
+		7D7134288B2F283BA184105FCFCE9386 /* JMContainerHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMContainerHeaderView.m; path = JMContainerControllers/Classes/DocumentContainer/JMContainerHeaderView.m; sourceTree = "<group>"; };
+		890AB3AFFCC0F8E1A650DB4AB4085E41 /* JMDocumentViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JMDocumentViewController.xib; path = JMContainerControllers/Classes/DocumentContainer/JMDocumentViewController.xib; sourceTree = "<group>"; };
+		8986538DF1D086AE5ABDCD32A144E13E /* JMSegueTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMSegueTrigger.h; path = JMContainerControllers/Classes/Base/JMSegueTrigger.h; sourceTree = "<group>"; };
+		8B2DC4C85E95AB77D71472547894D5F7 /* JMStackContainer_Internal.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JMStackContainer_Internal.xib; path = JMContainerControllers/Classes/StackingContainer/JMStackContainer_Internal.xib; sourceTree = "<group>"; };
 		8BC8DAE50A884BBB61A9C41DB47D0ACE /* Pods-JMMessageInput_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMMessageInput_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8E092DDF122C4DCEADE88971F7D1E186 /* JMEmbedSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMEmbedSegue.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C47E750CC9CC86DB0FFCE706A64959 /* Pods-JMMessageInput_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMMessageInput_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97501EE0698EC6C28AAF1E4309092E9C /* JMMessageInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMMessageInput.framework; path = JMMessageInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		989554473EDE769559370CEF1C6EA361 /* JMContainerControllers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMContainerControllers-dummy.m"; sourceTree = "<group>"; };
-		9D5C96709F7688336FEA9C274A2B8036 /* JMMessageInput.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMMessageInput.xcconfig; sourceTree = "<group>"; };
-		A1C48E670EA07702BEAB15D1E931CF12 /* JMStackContainer_Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMStackContainer_Internal.m; sourceTree = "<group>"; };
-		A31B560C01AA41A4BF758BAA4F87A290 /* JMMessageInputBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMMessageInputBar.m; path = JMMessageInput/Classes/JMMessageInputBar.m; sourceTree = "<group>"; };
-		A39FD83C46561C4E687001209A68C93C /* JMContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMContainerViewController.m; sourceTree = "<group>"; };
+		9B9B204989888FAECD20E359A86829D3 /* JMContainerControllers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMContainerControllers-umbrella.h"; sourceTree = "<group>"; };
+		AA2E614D7F33D4CB6BA237C379D89B5E /* JMMessageInputController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMMessageInputController.m; path = JMMessageInput/Classes/JMMessageInputController.m; sourceTree = "<group>"; };
 		B111CA80C5BD1A3269B8E0D0D1D0677B /* Pods-JMMessageInput_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMMessageInput_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B8B035F00E0E48FDFF02EFB6E2D706DB /* JMMessageInputBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMMessageInputBar.m; path = JMMessageInput/Classes/JMMessageInputBar.m; sourceTree = "<group>"; };
 		B9960C27B4D13582D1020BFED4BDBDFE /* Pods-JMMessageInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMMessageInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA4D33C0C7029CBF5309A30C9EF62A0F /* JMContainerControllers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JMContainerControllers.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/JMContainerControllers.framework; sourceTree = DEVELOPER_DIR; };
+		BACDA058E6B99A6A652CE0F7C962F830 /* JMDocumentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMDocumentViewController.h; path = JMContainerControllers/Classes/DocumentContainer/JMDocumentViewController.h; sourceTree = "<group>"; };
 		BAD316EC6BD7052BC1F8E074B672D99A /* Pods_JMMessageInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMMessageInput_Example.framework; path = "Pods-JMMessageInput_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB8E7A7CC841E3E01871CDEA39B9247E /* JMSegueTrigger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMSegueTrigger.m; sourceTree = "<group>"; };
-		BB9DBB4B4E0AC79F3EC397461CA5FC60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD69C0B79B3BCA8F442DA72F8B263C6F /* JMStackContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMStackContainerViewController.h; path = JMContainerControllers/Classes/StackingContainer/JMStackContainerViewController.h; sourceTree = "<group>"; };
 		BF13159EA04F8FEA7BAB57C8F9C8E111 /* Pods-JMMessageInput_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMMessageInput_Example-resources.sh"; sourceTree = "<group>"; };
 		BF7B11DEFEC2A7D70BD92565D4D209EA /* Pods-JMMessageInput_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMMessageInput_Example-umbrella.h"; sourceTree = "<group>"; };
-		C3B5545C7BF4D68612AF1722E3A717F8 /* JMHeaderLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMHeaderLabel.m; sourceTree = "<group>"; };
-		C9B04DFFF340E196DF280B08963F19E7 /* JMStackContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMStackContainerView.h; sourceTree = "<group>"; };
-		D1E4D06F5A448F5850C63B6E0D3D9FD8 /* JMStackContainer_Internal.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = JMStackContainer_Internal.xib; sourceTree = "<group>"; };
-		D599842570F2EEA168A68A4D8D5E2596 /* JMEmbedSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMEmbedSegue.m; sourceTree = "<group>"; };
-		DB085B5471CE6E4C513FBAF061C7ABF3 /* JMHeaderLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMHeaderLabel.h; sourceTree = "<group>"; };
-		DF8A62859D6F1BF300BB74A3D6319C18 /* JMSegueTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMSegueTrigger.h; sourceTree = "<group>"; };
-		E0C46C95201018D8551B46EFEAF7F918 /* JMContainerHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMContainerHeaderView.m; sourceTree = "<group>"; };
+		CC2180B99A270F8FC654F7BE9B58B266 /* JMContainerHeaderView_Internal.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JMContainerHeaderView_Internal.xib; path = JMContainerControllers/Classes/DocumentContainer/JMContainerHeaderView_Internal.xib; sourceTree = "<group>"; };
+		D12175202F1DD457E186A72FA7C4888A /* JMSegueTrigger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMSegueTrigger.m; path = JMContainerControllers/Classes/Base/JMSegueTrigger.m; sourceTree = "<group>"; };
+		D4896BA0E8945004351BA4BC3BA9267C /* JMMessageInput.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMMessageInput.xcconfig; sourceTree = "<group>"; };
+		D532F6C3FCB7E043AF6D5640744E7938 /* JMContainerControllers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMContainerControllers-prefix.pch"; sourceTree = "<group>"; };
+		DF4E3871C3786DB4D7BAF3AA99C15A3F /* JMStackContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMStackContainerViewController.m; path = JMContainerControllers/Classes/StackingContainer/JMStackContainerViewController.m; sourceTree = "<group>"; };
 		E51D467CB3B7EF1AC74CD7C5343A0D48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E91EFC56BEC1F8EDECEBF52E1B14815A /* JMContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMContainerViewController.h; sourceTree = "<group>"; };
-		E94AC5FC646B8B4C50CE924BD3146E6D /* JMContainerHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JMContainerHeaderView.h; sourceTree = "<group>"; };
+		EA9F868722FC7A965D1DB816882E01F1 /* JMHairlineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMHairlineView.h; path = JMContainerControllers/Classes/DocumentContainer/JMHairlineView.h; sourceTree = "<group>"; };
 		EBFCDC0E62A7FCE68883B2C6CA56FACE /* Pods-JMMessageInput_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMMessageInput_Tests.modulemap"; sourceTree = "<group>"; };
-		ECBDF1668E400679E997B5CB66A90142 /* JMStackContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JMStackContainerView.m; sourceTree = "<group>"; };
+		EC8C2EE41BFE39F4DF025093DD84DFE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFD3E3E14243B7F583BA4E1AF035DB4 /* JMHairlineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JMHairlineView.m; path = JMContainerControllers/Classes/DocumentContainer/JMHairlineView.m; sourceTree = "<group>"; };
 		F3AD2C0131406975AAF7C2F438758947 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B0683107D90FCEEEE82270D63F9B7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8BB745B95257925C96E8E2750EC1D3 /* JMHeaderLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMHeaderLabel.h; path = JMContainerControllers/Classes/DocumentContainer/JMHeaderLabel.h; sourceTree = "<group>"; };
+		FAD415F25F10E03A849424717EEF8FE7 /* JMStackContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMStackContainerView.h; path = JMContainerControllers/Classes/StackingContainer/JMStackContainerView.h; sourceTree = "<group>"; };
+		FBDE50C35B29B628286D379E2D8BBE30 /* JMMessageInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMMessageInput-dummy.m"; sourceTree = "<group>"; };
 		FC118CB6431090883FF596DEFFEBCFF8 /* Pods-JMMessageInput_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMMessageInput_Example-dummy.m"; sourceTree = "<group>"; };
+		FF33D16443471A0BF6BD23DA9D526BC8 /* JMContainerHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JMContainerHeaderView.h; path = JMContainerControllers/Classes/DocumentContainer/JMContainerHeaderView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,18 +191,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E0A5361B54E66447A33DF51F66331D4 /* Support Files */ = {
+		081FE2C041B04056CDA7C6BDF2640A4B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BB9DBB4B4E0AC79F3EC397461CA5FC60 /* Info.plist */,
-				75AFDA970D414A377713C601E6DEC9A0 /* JMMessageInput.modulemap */,
-				9D5C96709F7688336FEA9C274A2B8036 /* JMMessageInput.xcconfig */,
-				465113CE658507B8C35900AB9E7B3E64 /* JMMessageInput-dummy.m */,
-				8A4BD662E9B1B4F12DC00A93BDBE6173 /* JMMessageInput-prefix.pch */,
-				00B28F177BE24DB8F634B90FC9095DD0 /* JMMessageInput-umbrella.h */,
+				F5B0683107D90FCEEEE82270D63F9B7F /* Info.plist */,
+				4B49818038E8E1889BD0E9164B1291E6 /* JMMessageInput.modulemap */,
+				D4896BA0E8945004351BA4BC3BA9267C /* JMMessageInput.xcconfig */,
+				FBDE50C35B29B628286D379E2D8BBE30 /* JMMessageInput-dummy.m */,
+				51DAEC346ACDE38D4F2E631038DCB4AC /* JMMessageInput-prefix.pch */,
+				540C539C3AE4F92DFBC25D0E872E7ECC /* JMMessageInput-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JMMessageInput";
+			sourceTree = "<group>";
+		};
+		1E6C0B1DFF3C12E38E1CE68B63C8B84F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B9C980E6EA7AA371954969DAD1242CC /* JMContainerControllers */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		322E10929551AAF351D6D2DF3D4FEBCC /* Products */ = {
@@ -214,6 +222,27 @@
 				34425BCF3559B53B71D7BCEB7A3381DC /* Pods_JMMessageInput_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		39A036FDBF62F61AE8BAAEA8AB40C3C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C924D65DF544FA15C1950716507F660 /* JMMessageInput */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4C924D65DF544FA15C1950716507F660 /* JMMessageInput */ = {
+			isa = PBXGroup;
+			children = (
+				4AB8E56EA02C32B230349E0C20326724 /* JMMessageInputBar.h */,
+				B8B035F00E0E48FDFF02EFB6E2D706DB /* JMMessageInputBar.m */,
+				0F2323BA80E41B13C526FE301B33C405 /* JMMessageInputController.h */,
+				AA2E614D7F33D4CB6BA237C379D89B5E /* JMMessageInputController.m */,
+				081FE2C041B04056CDA7C6BDF2640A4B /* Support Files */,
+			);
+			name = JMMessageInput;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4E8EA74E49D3C93725FEBE1F354B9716 /* Pods-JMMessageInput_Example */ = {
@@ -234,30 +263,6 @@
 			path = "Target Support Files/Pods-JMMessageInput_Example";
 			sourceTree = "<group>";
 		};
-		5172A58E29CDB304B627DAA2D17384CE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				872131B95D8AE7A9758AAB797431F58F /* JMContainerControllers */,
-				8767FF0DA249ECAA99BF0149DD1B8D49 /* JMMessageInput */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5A2A66250B1C468CCC66773782D14F11 /* StackingContainer */ = {
-			isa = PBXGroup;
-			children = (
-				2BC75003FFC20ADD7B8A84FFDB54CBC7 /* JMStackContainer_Internal.h */,
-				A1C48E670EA07702BEAB15D1E931CF12 /* JMStackContainer_Internal.m */,
-				D1E4D06F5A448F5850C63B6E0D3D9FD8 /* JMStackContainer_Internal.xib */,
-				C9B04DFFF340E196DF280B08963F19E7 /* JMStackContainerView.h */,
-				ECBDF1668E400679E997B5CB66A90142 /* JMStackContainerView.m */,
-				234E1C487331A99E254279EA2058B5F5 /* JMStackContainerViewController.h */,
-				20DBB0739F0FAE2AC7A68BFD6B6BA3A4 /* JMStackContainerViewController.m */,
-			);
-			name = StackingContainer;
-			path = JMContainerControllers/Classes/StackingContainer;
-			sourceTree = "<group>";
-		};
 		66DD99BFA0367AA3C4A31C6D44FAEB6B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,40 +273,50 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7B9C980E6EA7AA371954969DAD1242CC /* JMContainerControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF33D16443471A0BF6BD23DA9D526BC8 /* JMContainerHeaderView.h */,
+				7D7134288B2F283BA184105FCFCE9386 /* JMContainerHeaderView.m */,
+				CC2180B99A270F8FC654F7BE9B58B266 /* JMContainerHeaderView_Internal.xib */,
+				62C563E41F78270F37C8ACA92C6F70B9 /* JMContainerViewController.h */,
+				623CB3D8BB0B92B60E032350F7DADF62 /* JMContainerViewController.m */,
+				BACDA058E6B99A6A652CE0F7C962F830 /* JMDocumentViewController.h */,
+				3C51D09DB4235F370FB047B587C8ED19 /* JMDocumentViewController.m */,
+				890AB3AFFCC0F8E1A650DB4AB4085E41 /* JMDocumentViewController.xib */,
+				5A103147F3CEC7021B1F8423D3D08BF3 /* JMEmbedSegue.h */,
+				705FC1BF2A53E2F66A24961F7D90067E /* JMEmbedSegue.m */,
+				EA9F868722FC7A965D1DB816882E01F1 /* JMHairlineView.h */,
+				ECFD3E3E14243B7F583BA4E1AF035DB4 /* JMHairlineView.m */,
+				FA8BB745B95257925C96E8E2750EC1D3 /* JMHeaderLabel.h */,
+				3E84217753AA7CF7D208B555347AF1E4 /* JMHeaderLabel.m */,
+				8986538DF1D086AE5ABDCD32A144E13E /* JMSegueTrigger.h */,
+				D12175202F1DD457E186A72FA7C4888A /* JMSegueTrigger.m */,
+				3841631C0B135FCDBFC363B9B509BB6A /* JMStackContainer_Internal.h */,
+				66E2D34438D25E36D485B668136CDD16 /* JMStackContainer_Internal.m */,
+				8B2DC4C85E95AB77D71472547894D5F7 /* JMStackContainer_Internal.xib */,
+				FAD415F25F10E03A849424717EEF8FE7 /* JMStackContainerView.h */,
+				6507C8BC8290CEF81B781509F7C7E332 /* JMStackContainerView.m */,
+				BD69C0B79B3BCA8F442DA72F8B263C6F /* JMStackContainerViewController.h */,
+				DF4E3871C3786DB4D7BAF3AA99C15A3F /* JMStackContainerViewController.m */,
+				377113BBAE6CBFF2DB8927B0F90D7BA0 /* UIView+Embedding.h */,
+				64D0BA415B14B10C5A4AA42737B1930A /* UIView+Embedding.m */,
+				ECD37CCB23F67770548F128917EDAD8E /* Support Files */,
+			);
+			name = JMContainerControllers;
+			path = JMContainerControllers;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5172A58E29CDB304B627DAA2D17384CE /* Development Pods */,
+				39A036FDBF62F61AE8BAAEA8AB40C3C1 /* Development Pods */,
 				BA3F85FAFF1DE2CB7926C8869702552D /* Frameworks */,
+				1E6C0B1DFF3C12E38E1CE68B63C8B84F /* Pods */,
 				322E10929551AAF351D6D2DF3D4FEBCC /* Products */,
 				9E4D8EE5B9085C5AFC6838620E9B5324 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		872131B95D8AE7A9758AAB797431F58F /* JMContainerControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E6443737707D2BEF0818556D037287AE /* Base */,
-				AACB618F5661CACB33DDEF868DA9DFB8 /* DocumentContainer */,
-				5A2A66250B1C468CCC66773782D14F11 /* StackingContainer */,
-				CD943C8C3F31B79070CA44B1B60ACB0A /* Support Files */,
-			);
-			name = JMContainerControllers;
-			path = /Users/Developer/Documents/JMContainerControllers;
-			sourceTree = "<absolute>";
-		};
-		8767FF0DA249ECAA99BF0149DD1B8D49 /* JMMessageInput */ = {
-			isa = PBXGroup;
-			children = (
-				18523D9C755ABCF92456BA939E89B8D2 /* JMMessageInputBar.h */,
-				A31B560C01AA41A4BF758BAA4F87A290 /* JMMessageInputBar.m */,
-				13E06DFAADB75858C386BFB71A84D160 /* JMMessageInputController.h */,
-				20472FFD957DD5AB954597803A7C634A /* JMMessageInputController.m */,
-				2E0A5361B54E66447A33DF51F66331D4 /* Support Files */,
-			);
-			name = JMMessageInput;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		9E4D8EE5B9085C5AFC6838620E9B5324 /* Targets Support Files */ = {
@@ -313,24 +328,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AACB618F5661CACB33DDEF868DA9DFB8 /* DocumentContainer */ = {
-			isa = PBXGroup;
-			children = (
-				E94AC5FC646B8B4C50CE924BD3146E6D /* JMContainerHeaderView.h */,
-				E0C46C95201018D8551B46EFEAF7F918 /* JMContainerHeaderView.m */,
-				38823BFA5C45523BD4432EAC21671B0A /* JMContainerHeaderView_Internal.xib */,
-				851E7038215EACA7B2E4C6A3D71E2586 /* JMDocumentViewController.h */,
-				72B54BA0E34626CCED13D0A9A0D9C934 /* JMDocumentViewController.m */,
-				04D7A21650B0FA1C7649AAB984B4E78B /* JMDocumentViewController.xib */,
-				52E48CC1C3993204AB2DC31558FCD324 /* JMHairlineView.h */,
-				6B9B0FB2777EA3ACC076577C1FA2CCC3 /* JMHairlineView.m */,
-				DB085B5471CE6E4C513FBAF061C7ABF3 /* JMHeaderLabel.h */,
-				C3B5545C7BF4D68612AF1722E3A717F8 /* JMHeaderLabel.m */,
-			);
-			name = DocumentContainer;
-			path = JMContainerControllers/Classes/DocumentContainer;
-			sourceTree = "<group>";
-		};
 		BA3F85FAFF1DE2CB7926C8869702552D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -340,34 +337,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CD943C8C3F31B79070CA44B1B60ACB0A /* Support Files */ = {
+		ECD37CCB23F67770548F128917EDAD8E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A79BE1FA522BF6812709F928DF385B9 /* Info.plist */,
-				778202FA5FEF9AEC0B6C777C3ED7144F /* JMContainerControllers.modulemap */,
-				04D3A7436BDDE5044FC5FAC47409B41F /* JMContainerControllers.xcconfig */,
-				989554473EDE769559370CEF1C6EA361 /* JMContainerControllers-dummy.m */,
-				434193433205D2AE201F4DAB7CBA0E7B /* JMContainerControllers-prefix.pch */,
-				2FDAA8141A150CDDB344D26E056E3FD9 /* JMContainerControllers-umbrella.h */,
+				EC8C2EE41BFE39F4DF025093DD84DFE4 /* Info.plist */,
+				56E13024A4FC9B67BBE2A20FF2059DB5 /* JMContainerControllers.modulemap */,
+				774F71747170ADA33D39C5219F22F107 /* JMContainerControllers.xcconfig */,
+				5C221BA06959E89EE904AA01FA7A6E0A /* JMContainerControllers-dummy.m */,
+				D532F6C3FCB7E043AF6D5640744E7938 /* JMContainerControllers-prefix.pch */,
+				9B9B204989888FAECD20E359A86829D3 /* JMContainerControllers-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../JMMessageInput/Example/Pods/Target Support Files/JMContainerControllers";
-			sourceTree = "<group>";
-		};
-		E6443737707D2BEF0818556D037287AE /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				E91EFC56BEC1F8EDECEBF52E1B14815A /* JMContainerViewController.h */,
-				A39FD83C46561C4E687001209A68C93C /* JMContainerViewController.m */,
-				8E092DDF122C4DCEADE88971F7D1E186 /* JMEmbedSegue.h */,
-				D599842570F2EEA168A68A4D8D5E2596 /* JMEmbedSegue.m */,
-				DF8A62859D6F1BF300BB74A3D6319C18 /* JMSegueTrigger.h */,
-				BB8E7A7CC841E3E01871CDEA39B9247E /* JMSegueTrigger.m */,
-				37985370E24ECA56F2B3A335FDDD2C28 /* UIView+Embedding.h */,
-				5BC9AA4E784BF74D63E6A6BFAD56D2FC /* UIView+Embedding.m */,
-			);
-			name = Base;
-			path = JMContainerControllers/Classes/Base;
+			path = "../Target Support Files/JMContainerControllers";
 			sourceTree = "<group>";
 		};
 		FD715BD27C9C4B5C0289BAD90CF551CF /* Pods-JMMessageInput_Tests */ = {
@@ -391,30 +372,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		26C67E44F0412F5BA809B68CE47F6EE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41736ACFCC886EB3BF2AF6124B1ECAE1 /* JMContainerControllers-umbrella.h in Headers */,
+				C5F48B7EA6B7AB46179E511682F7BCEB /* JMContainerHeaderView.h in Headers */,
+				6102D6DD11F1EC0CE6ECE6A33ABFB6E8 /* JMContainerViewController.h in Headers */,
+				5B0B09ED40B5722C28BB1FBD0ECDE5D2 /* JMDocumentViewController.h in Headers */,
+				FE77485C17F247466DACA263E8FF1FCC /* JMEmbedSegue.h in Headers */,
+				4AFE7382A291DAD77DCFC5CCF48EB4F3 /* JMHairlineView.h in Headers */,
+				E61D6877D02B09E758B4F9AC76A570E0 /* JMHeaderLabel.h in Headers */,
+				BA05C7F49BDC2D3383958CD3C79F51F4 /* JMSegueTrigger.h in Headers */,
+				2C16BA9894FFAAF903B9194427F6FD35 /* JMStackContainer_Internal.h in Headers */,
+				57AF62B5F9FE27276FBB833E9030D497 /* JMStackContainerView.h in Headers */,
+				0A9BCCF8F62D4A762927F096972ACFCC /* JMStackContainerViewController.h in Headers */,
+				5D185617D6C05BDFBF6CC99FF7C5EBAF /* UIView+Embedding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		708ACFBF430B9A4FE4631E2EBCF3F658 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E74A0B6801B1EFBBDAA01E529A7F7466 /* Pods-JMMessageInput_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74E8BC1847E11188C973C7C6C07CFF10 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F059F024A3FC196BAF54DB4F09F0A18 /* JMContainerControllers-umbrella.h in Headers */,
-				14DB952AD0E101F44AD3CB9E26D96C33 /* JMContainerHeaderView.h in Headers */,
-				5A3B2D29D66BDDF3CFA60F0487F57208 /* JMContainerViewController.h in Headers */,
-				8205640762A57FF3136BCEF93F7DB2DA /* JMDocumentViewController.h in Headers */,
-				EFC5E9E96CEE90B8653DFB6AD6B93F42 /* JMEmbedSegue.h in Headers */,
-				C395E5A11BC23B795BD1404FB26315A0 /* JMHairlineView.h in Headers */,
-				CEA8C9FED0B6CF606CCABAD7D98936D7 /* JMHeaderLabel.h in Headers */,
-				35FA3735D53074566D315F9C7820E81E /* JMSegueTrigger.h in Headers */,
-				F99316F87D6FE82B9CED489E930EA8A7 /* JMStackContainer_Internal.h in Headers */,
-				F7801E19BEE4FC013C67747218E7BB16 /* JMStackContainerView.h in Headers */,
-				0CE51F6BC779679A69574943D3365F1B /* JMStackContainerViewController.h in Headers */,
-				0BA30F4DA9AA48F33391B9BB16DE57FF /* UIView+Embedding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,9 +460,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 121574AD8FDADD122FBF6A2B0088E606 /* Build configuration list for PBXNativeTarget "JMContainerControllers" */;
 			buildPhases = (
-				1E702C87ECA7FC85EE0EACC06B1B10FD /* Sources */,
+				99045B19DCD28448DECA7B26139F977D /* Sources */,
 				47387B50A741868E719B9631A17D1876 /* Frameworks */,
-				74E8BC1847E11188C973C7C6C07CFF10 /* Headers */,
+				26C67E44F0412F5BA809B68CE47F6EE3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -540,25 +521,25 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E702C87ECA7FC85EE0EACC06B1B10FD /* Sources */ = {
+		99045B19DCD28448DECA7B26139F977D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4316D095C1C89AC8B07497426045971F /* JMContainerControllers-dummy.m in Sources */,
-				8FE05242255469A156CF682D03C4EF17 /* JMContainerHeaderView.m in Sources */,
-				07DCAF7C6553E6083970DFEADA4A59E4 /* JMContainerHeaderView_Internal.xib in Sources */,
-				42782B056A77DAEF041DE65D89A2A2E7 /* JMContainerViewController.m in Sources */,
-				D2CF1316E15D42E4920B8CBBCF3CB97F /* JMDocumentViewController.m in Sources */,
-				02349FA9D2901D27BE3C3BCC278356F6 /* JMDocumentViewController.xib in Sources */,
-				4C9B8FA1D3B75950A7FD4BCEDB2824B6 /* JMEmbedSegue.m in Sources */,
-				87B9B2CAB46B9853F496D15C9F8C39E3 /* JMHairlineView.m in Sources */,
-				F3651819E8DDDE86F44F205C00F7DABC /* JMHeaderLabel.m in Sources */,
-				2AA8CA52830A51B22B575A54A0874285 /* JMSegueTrigger.m in Sources */,
-				CC45E177B153799CAB4A3D9EE901C622 /* JMStackContainer_Internal.m in Sources */,
-				80EE569891C7BC756E34CBC80FA8B552 /* JMStackContainer_Internal.xib in Sources */,
-				C62C54DE07B4C607B521CDC8BE9AC39E /* JMStackContainerView.m in Sources */,
-				BA942B14989E23A22A4552BEA712D1AE /* JMStackContainerViewController.m in Sources */,
-				69B3D81DAA0A9CB828505706C36B754D /* UIView+Embedding.m in Sources */,
+				CE43083007E38B361770CF2077E1074B /* JMContainerControllers-dummy.m in Sources */,
+				9C92B00A270FCF5BA46403FB78649B06 /* JMContainerHeaderView.m in Sources */,
+				1DDF4508D0BBE70D24CDB54320E8AF74 /* JMContainerHeaderView_Internal.xib in Sources */,
+				5CE966A28D5788A9B26407BC01E8B069 /* JMContainerViewController.m in Sources */,
+				3DAB3F68328BCD8FCB1D10701F36E607 /* JMDocumentViewController.m in Sources */,
+				573B260663DB03EBA09AA975A48C768C /* JMDocumentViewController.xib in Sources */,
+				8DE2B0269E8C717062DF405EB342AB3A /* JMEmbedSegue.m in Sources */,
+				A9F8870E826CDC0EEE6C62F53798A29B /* JMHairlineView.m in Sources */,
+				61B80CD91CDAC09A95963EF31539E297 /* JMHeaderLabel.m in Sources */,
+				69EBAEE108A3A520BB7E62976728EB95 /* JMSegueTrigger.m in Sources */,
+				01369C57BB73C6F724F3479DC73A7473 /* JMStackContainer_Internal.m in Sources */,
+				8389F70515C54FF4AD7554146367068D /* JMStackContainer_Internal.xib in Sources */,
+				D67A91FA2C242417F8E6A0BEBBEC6A84 /* JMStackContainerView.m in Sources */,
+				805E277E209D333F31C490FB3B934357 /* JMStackContainerViewController.m in Sources */,
+				8922BD884619E256A38835AA6DC3B69F /* UIView+Embedding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +631,7 @@
 		};
 		212E07340A1B16C01708520CAB4A080F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D5C96709F7688336FEA9C274A2B8036 /* JMMessageInput.xcconfig */;
+			baseConfigurationReference = D4896BA0E8945004351BA4BC3BA9267C /* JMMessageInput.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -683,7 +664,7 @@
 		};
 		3629EF5C76915A88B3C2C1772336FA4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D5C96709F7688336FEA9C274A2B8036 /* JMMessageInput.xcconfig */;
+			baseConfigurationReference = D4896BA0E8945004351BA4BC3BA9267C /* JMMessageInput.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -752,7 +733,7 @@
 		};
 		4D41106ADC737A8C92AD03A528D91603 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04D3A7436BDDE5044FC5FAC47409B41F /* JMContainerControllers.xcconfig */;
+			baseConfigurationReference = 774F71747170ADA33D39C5219F22F107 /* JMContainerControllers.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -785,7 +766,7 @@
 		};
 		526FBBDAAA983C9BBB52ABB572A64891 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04D3A7436BDDE5044FC5FAC47409B41F /* JMContainerControllers.xcconfig */;
+			baseConfigurationReference = 774F71747170ADA33D39C5219F22F107 /* JMContainerControllers.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

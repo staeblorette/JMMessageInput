@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JMContainerHeaderView_Internal">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="114"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tHE-zA-bFt">
+                    <rect key="frame" x="24" y="31" width="374" height="52"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="u5j-Vj-UwZ">
+                            <rect key="frame" x="0.0" y="0.0" width="301" height="52"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Header Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgK-ZZ-8dm" customClass="JMHeaderLabel">
+                                    <rect key="frame" x="0.0" y="0.0" width="301" height="34"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subttitle Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPo-RX-hhI" customClass="JMSubHeaderLabel">
+                                    <rect key="frame" x="0.0" y="34" width="301" height="18"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ee9-2m-Ho6">
+                            <rect key="frame" x="301" y="0.0" width="73" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="73" id="bb8-0F-gWX"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                </stackView>
+                <view alpha="0.94999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7dU-Os-6cq" userLabel="Hairline" customClass="JMHairlineView">
+                    <rect key="frame" x="24" y="113" width="374" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="5bB-Y0-tv5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7dU-Os-6cq" firstAttribute="trailing" secondItem="tHE-zA-bFt" secondAttribute="trailing" id="2WD-3m-HcB"/>
+                <constraint firstItem="7dU-Os-6cq" firstAttribute="leading" secondItem="tHE-zA-bFt" secondAttribute="leading" id="6bT-ly-Fm2"/>
+                <constraint firstItem="tHE-zA-bFt" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8KA-gL-BVK"/>
+                <constraint firstItem="tHE-zA-bFt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="A6L-m8-HO2"/>
+                <constraint firstAttribute="trailing" secondItem="tHE-zA-bFt" secondAttribute="trailing" constant="24" id="htE-yJ-MSq"/>
+                <constraint firstAttribute="bottom" secondItem="7dU-Os-6cq" secondAttribute="bottom" id="z1x-eK-Ybo"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="accessoryContainer" destination="ee9-2m-Ho6" id="BKI-GQ-yke"/>
+                <outlet property="subtitleLabel" destination="vPo-RX-hhI" id="5SE-bU-Y2V"/>
+                <outlet property="textContainer" destination="tHE-zA-bFt" id="K1H-qi-VIq"/>
+                <outlet property="titleLabel" destination="MgK-ZZ-8dm" id="Waw-Ox-ZDO"/>
+            </connections>
+            <point key="canvasLocation" x="-55" y="-878"/>
+        </view>
+    </objects>
+</document>
