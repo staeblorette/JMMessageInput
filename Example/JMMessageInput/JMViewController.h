@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+@import JMMessageInput;
 
 @interface JMViewController : UIViewController
 

@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <JMContainerControllers/JMContainerViewController.h>
 #import <JMMessageInput/JMMessageInputBar.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @class JMMessageInputBar;
-@interface JMMessageInputController : UIViewController
+@interface JMMessageInputController : JMContainerViewController
 
 /* Use this initializer to make the Message controller use your custom bar class.
  Passing nil for input bar class will get you JMMessagesInputBar.
@@ -25,11 +26,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithCoder:(NSCoder *)aDecoder NS_DESIGNATED_INITIALIZER;
 
 @property (nonatomic, strong, readonly) JMMessageInputBar *inputBar;
-
-/**
-Not implemented
- */
-- (void)setRootViewController:(UIViewController *)controller;
 
 @end
 

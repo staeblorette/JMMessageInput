@@ -1,0 +1,6 @@
+framework module JMContainerControllers {
+  umbrella header "JMContainerControllers-umbrella.h"
+
+  export *
+  module * { export * }
+}

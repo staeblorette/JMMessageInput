@@ -1,16 +1,22 @@
 PODS:
-  - JMMessageInput (0.1.0)
+  - JMContainerControllers (0.1.0)
+  - JMMessageInput (0.1.0):
+    - JMContainerControllers
 
 DEPENDENCIES:
+  - JMContainerControllers (from `~/Documents/JMContainerControllers`)
   - JMMessageInput (from `../`)
 
 EXTERNAL SOURCES:
+  JMContainerControllers:
+    :path: ~/Documents/JMContainerControllers
   JMMessageInput:
     :path: ../
 
 SPEC CHECKSUMS:
-  JMMessageInput: 71e58e6b8eeeb6c52ce6846e81388d1d4d46eb47
+  JMContainerControllers: d8a65227a63c6afd84f4db045e48c84311d97819
+  JMMessageInput: de0097de20b68947f320da08a9fa77d8e5391501
 
-PODFILE CHECKSUM: 174fa94e39cd202ddcadac971118d1961f828303
+PODFILE CHECKSUM: de7d3ec7d364335fdde1b98e177250930953203e
 
 COCOAPODS: 1.3.1

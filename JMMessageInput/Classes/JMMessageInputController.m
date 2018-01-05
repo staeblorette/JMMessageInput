@@ -298,17 +298,16 @@
 	return  ylocationInInput / inputHeight;
 }
 
-#pragma mark - Handle Child Controller
+#pragma mark - Embedding
 
-- (void)setRootViewController:(UIViewController *)controller {
-	// TODO: Add method implementation. However, if you'd look at the JMStack Project you will see a method to implement
-	// this by simply subclassing JMContainerViewController
-	@throw [NSException exceptionWithName:NSInternalInconsistencyException reason:@"Not Implemented" userInfo:nil];
-}
-
-- (void)addChildViewController:(UIViewController *)childController {
-	[super addChildViewController:childController];
+- (void)embedViewControllerView:(UIViewController *)viewController {
+	[super embedViewControllerView:viewController];
 	
-	[childController setAdditionalSafeAreaInsets:UIEdgeInsetsMake(0, 0, self.inputBar.frame.size.height, 0)];
+	[self.view sendSubviewToBack:viewController.view];
+	
+	if(@available(iOS 11.0, *)) {
+		viewController.additionalSafeAreaInsets = UIEdgeInsetsMake(0, 0, self.inputBar.frame.size.height, 0);
+	}
 }
+
 @end

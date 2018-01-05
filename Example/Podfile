@@ -1,7 +1,11 @@
 use_frameworks!
 
 target 'JMMessageInput_Example' do
+	platform :ios, '10.0'
+
   pod 'JMMessageInput', :path => '../'
+  pod 'JMContainerControllers', :path => '~/Documents/JMContainerControllers'
+
 
   target 'JMMessageInput_Tests' do
     inherit! :search_paths

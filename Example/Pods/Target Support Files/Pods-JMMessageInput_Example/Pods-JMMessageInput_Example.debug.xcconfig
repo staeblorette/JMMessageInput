@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JMMessageInput"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JMContainerControllers" "$PODS_CONFIGURATION_BUILD_DIR/JMMessageInput"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/JMMessageInput/JMMessageInput.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "JMMessageInput"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/JMContainerControllers/JMContainerControllers.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JMMessageInput/JMMessageInput.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "JMContainerControllers" -framework "JMMessageInput"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

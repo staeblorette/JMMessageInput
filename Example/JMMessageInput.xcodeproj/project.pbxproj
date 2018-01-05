@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8ADD8F54421CDC30F3192074 /* Pods_JMMessageInput_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947F3C9CEA16B680D18C8A1E /* Pods_JMMessageInput_Example.framework */; };
+		8BF3A31A1FFE40A100912BB5 /* JMMessageInput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF3A31B1FFE40A100912BB5 /* JMMessageInput.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		02281C49FEE1F9FB9D67CE3F /* Pods_JMMessageInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMMessageInput_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21E11FDF2DC9C2834134AB0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5409A31631FCB84802D93449 /* JMMessageInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JMMessageInput.podspec; path = ../JMMessageInput.podspec; sourceTree = "<group>"; };
+		21E11FDF2DC9C2834134AB0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5409A31631FCB84802D93449 /* JMMessageInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JMMessageInput.podspec; path = ../JMMessageInput.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JMMessageInput_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMMessageInput_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +64,9 @@
 		74B0465D9F5E8F3AF655E8B3 /* Pods-JMMessageInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMMessageInput_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMMessageInput_Example/Pods-JMMessageInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7D9DE9E0FF43343C6DEA59EF /* Pods-JMMessageInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMMessageInput_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMMessageInput_Example/Pods-JMMessageInput_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BF3A31B1FFE40A100912BB5 /* JMMessageInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JMMessageInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		947F3C9CEA16B680D18C8A1E /* Pods_JMMessageInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMMessageInput_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CCFB9D4447AC2D66C7C9AAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9CCFB9D4447AC2D66C7C9AAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ADA17B06E23ACE32BD23299C /* Pods-JMMessageInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMMessageInput_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMMessageInput_Tests/Pods-JMMessageInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF3D049A5D9EB9D97624EB8D /* Pods-JMMessageInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMMessageInput_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMMessageInput_Tests/Pods-JMMessageInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF3A31A1FFE40A100912BB5 /* JMMessageInput.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -130,6 +133,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8BF3A31B1FFE40A100912BB5 /* JMMessageInput.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -247,7 +251,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JM;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = staeblorette;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -322,10 +326,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JMMessageInput_Example/Pods-JMMessageInput_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JMContainerControllers/JMContainerControllers.framework",
 				"${BUILT_PRODUCTS_DIR}/JMMessageInput/JMMessageInput.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JMContainerControllers.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JMMessageInput.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
