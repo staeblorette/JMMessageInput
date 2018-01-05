@@ -27,8 +27,6 @@ Adds a messanger like input. You have all seen how this works.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 JMMessageInput is available through [CocoaPods](http://cocoapods.org). To install
@@ -39,6 +37,10 @@ pod 'JMMessageInput'
 ```
 
 The framework has a dependency on 'JMContainerControllers'
+
+## Storyboard use
+
+The ViewController will manage the layout of the bar. However due to problems of frameworks and IBDesignable, you have to attach trailing, leading and bottom contraint yourself, to avoid interface builder errors. Please make sure, however, to check the 'Remove at Buildtime' option. Same is for intrinsic content size. 
 
 ## Author
 
