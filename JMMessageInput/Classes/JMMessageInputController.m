@@ -64,7 +64,14 @@
 - (void)anchorInputBar:(UIView *)inputBar {
 	inputBar.translatesAutoresizingMaskIntoConstraints = NO;
 	
-	self.inputBarConstraint = [[[self.view safeAreaLayoutGuide] bottomAnchor] constraintEqualToAnchor:inputBar.bottomAnchor];
+	NSLayoutAnchor *bottomAnchor;
+	if (@available(iOS 11.0, *)) {
+		bottomAnchor = self.view.safeAreaLayoutGuide.bottomAnchor;
+	} else {
+		bottomAnchor = self.view.bottomAnchor;
+	}
+	
+	self.inputBarConstraint = [bottomAnchor constraintEqualToAnchor:inputBar.bottomAnchor];
 	self.inputBarConstraint.active = YES;
 	
 	[[self.view leadingAnchor] constraintEqualToAnchor:inputBar.leadingAnchor].active = YES;
@@ -187,9 +194,13 @@
 }
 
 - (void)adjustToolbarToKeyboard {
-	CGFloat edgeDistance = self.view.bounds.size.height -
-	self.view.safeAreaInsets.bottom -
-	self.keyboardTargetFrame.origin.y;
+	CGFloat edgeDistance = 0;
+	
+	if (@available(iOS 11.0, *)) {
+		edgeDistance = self.view.bounds.size.height -
+		self.view.safeAreaInsets.bottom -
+		self.keyboardTargetFrame.origin.y;
+	}
 		
 	[self.inputBarConstraint setConstant:edgeDistance];
 	[self.inputBar invalidateIntrinsicContentSize];
