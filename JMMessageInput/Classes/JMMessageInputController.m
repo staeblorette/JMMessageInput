@@ -18,21 +18,24 @@
 @interface JMMessageInputController () <UIGestureRecognizerDelegate>
 
 // Keyboard
-@property (weak  , nonatomic) NSLayoutConstraint *		inputBarConstraint;
+@property (weak  , nonatomic) NSLayoutConstraint *inputBarConstraint;
 @property (strong, nonatomic) IBOutlet JMMessageInputBar *inputBar;
 
 // Keyboard animation
-@property (assign, nonatomic) BOOL						keyboardIsPresent;
-@property (assign, nonatomic) CGRect					keyboardStartFrame;
-@property (assign, nonatomic) CGRect					keyboardTargetFrame;
-@property (assign, nonatomic) NSTimeInterval 			keyboardTimeInterval;
-@property (assign, nonatomic) UIViewAnimationCurve 		keyboardAnimationCurve;
-@property (strong, nonatomic) UIViewPropertyAnimator *	keyboardAnimator;
+@property (assign, nonatomic) BOOL keyboardIsPresent;
+@property (assign, nonatomic) CGRect keyboardStartFrame;
+@property (assign, nonatomic) CGRect keyboardTargetFrame;
+@property (assign, nonatomic) NSTimeInterval keyboardTimeInterval;
+@property (assign, nonatomic) UIViewAnimationCurve keyboardAnimationCurve;
+@property (strong, nonatomic) UIViewPropertyAnimator *keyboardAnimator;
 
 // View Size Transition
-@property (assign, nonatomic) BOOL 					isAnimatingViewSizeTransition;
-@property (assign, nonatomic) UIViewAnimationCurve 	viewSizeTransitionCurve;
-@property (assign, nonatomic) NSTimeInterval 		viewSizeTransitionDuration;
+@property (assign, nonatomic) BOOL isAnimatingViewSizeTransition;
+@property (assign, nonatomic) UIViewAnimationCurve viewSizeTransitionCurve;
+@property (assign, nonatomic) NSTimeInterval viewSizeTransitionDuration;
+
+// Content
+@property (strong, nonatomic) UIViewController *childViewController;
 
 @end
 
@@ -93,6 +96,7 @@
 		[self.view addSubview:self.inputBar];
 	}
 	[self anchorInputBar:self.inputBar];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateChildSafeArea) name:JMMessageInputBarDidResizeNotification object:self.inputBar];
 	
 	// The gesture recognizer is used for dismissing
 	UIPanGestureRecognizer *recognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(didPan:)];
@@ -201,20 +205,21 @@
 		self.view.safeAreaInsets.bottom -
 		self.keyboardTargetFrame.origin.y;
 	}
-		
+	
+	
 	[self.inputBarConstraint setConstant:edgeDistance];
-	[self.inputBar invalidateIntrinsicContentSize];
+	[self updateChildSafeArea];
 }
 
 - (void)adjustToolbarToSafeAnchor {
+
 	[self.inputBarConstraint setConstant:0];
-	[self.inputBar invalidateIntrinsicContentSize];
+	[self updateChildSafeArea];
 }
 
 #pragma mark - Device Rotation
 
-- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
-{
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
 	[super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
 	
 	[coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
@@ -273,7 +278,7 @@
 			[UIView animateKeyframesWithDuration:duration delay:0.0f options:UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
 				
 				[UIView addKeyframeWithRelativeStartTime:0 relativeDuration:relativeDuration animations:^{
-					wself.inputBarConstraint.constant = 0;
+					[wself adjustToolbarToSafeAnchor];
 					[wself.view layoutIfNeeded];
 				}];
 				
@@ -314,11 +319,25 @@
 - (void)embedViewControllerView:(UIViewController *)viewController {
 	[super embedViewControllerView:viewController];
 	
+	self.childViewController = viewController;
 	[self.view sendSubviewToBack:viewController.view];
 	
+	[self.inputBar layoutIfNeeded];
+	[self updateChildSafeArea];
+}
+
+- (void)updateChildSafeArea {
 	if(@available(iOS 11.0, *)) {
-		viewController.additionalSafeAreaInsets = UIEdgeInsetsMake(0, 0, self.inputBar.frame.size.height, 0);
+		self.childViewController.additionalSafeAreaInsets = UIEdgeInsetsMake(0, 0, self.inputBarConstraint.constant + self.inputBar.frame.size.height, 0);
+	} else {
+		NSLog(@"Setting the bottom insets is currently not supported for iOS < 11.0");
 	}
+}
+
+#pragma mark - Cleanup
+
+- (void)dealloc {
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 @end

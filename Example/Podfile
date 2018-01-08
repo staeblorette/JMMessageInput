@@ -3,7 +3,7 @@ use_frameworks!
 target 'JMMessageInput_Example' do
 	platform :ios, '10.0'
 
-  pod 'JMMessageInput', :path => '../'
+  pod 'JMMessageInput', '~> 0.1.1'
   pod 'JMContainerControllers', '~> 0.1.0'
 
 

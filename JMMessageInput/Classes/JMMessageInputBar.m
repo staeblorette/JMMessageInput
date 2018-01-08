@@ -39,15 +39,15 @@ static CGFloat const JMMessageInputBarVerticalMargin = 6.0f;
 
 @interface JMMessageInputBar ()
 
-@property (strong, nonatomic, readwrite) IBOutlet UITextView *	textView;
-@property (strong, nonatomic, readwrite) IBOutlet UIButton *	rightAccessoryButton;
-@property (strong, nonatomic, readwrite) IBOutlet UIButton *	leftAccessoryButton;
-@property (strong, nonatomic, readwrite) IBOutlet UIButton *	sendButton;
-@property (strong, nonatomic, readwrite) IBOutlet UILabel *		placeholderLabel;
+@property (strong, nonatomic, readwrite) IBOutlet UIView *backgroundView;
+@property (strong, nonatomic, readwrite) IBOutlet UITextView *textView;
+@property (strong, nonatomic, readwrite) IBOutlet UIButton *rightAccessoryButton;
+@property (strong, nonatomic, readwrite) IBOutlet UIButton *leftAccessoryButton;
+@property (strong, nonatomic, readwrite) IBOutlet UIButton *sendButton;
+@property (strong, nonatomic, readwrite) IBOutlet UILabel *placeholderLabel;
 
 @property (assign, nonatomic, readwrite) JMMessageInputBarStyle style;
 
-@property (strong, nonatomic) UIView *backgroundView;
 @property (strong, nonatomic) UIView *textViewContainer;
 @property (assign, nonatomic) CGFloat intrinsicContentHeight;
 
@@ -189,6 +189,18 @@ static CGFloat const JMMessageInputBarVerticalMargin = 6.0f;
 	}
 }
 
+- (UIView *)backgroundView {
+	
+	if (!_backgroundView) {
+		UIVisualEffect *effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+		UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:effect];
+		[self insertSubview:effectView atIndex:0];
+		
+		_backgroundView = effectView;
+	}
+	return _backgroundView;
+}
+
 #pragma mark - Layouting
 
 - (void)layoutSubviews {
@@ -212,11 +224,6 @@ static CGFloat const JMMessageInputBarVerticalMargin = 6.0f;
 		self.dynamicSizeConstraint.active = NO;
 		
 		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didChangeContentOfTextView) name:UITextViewTextDidChangeNotification object:self.textView];
-
-		UIVisualEffect *effect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
-		UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:effect];
-		[self insertSubview:effectView atIndex:0];
-		self.backgroundView = effectView;
 	}
 
 	[self updateBackgroundIfNeeded];
@@ -280,6 +287,11 @@ static CGFloat const JMMessageInputBarVerticalMargin = 6.0f;
 
 	CGSize oldSize = self.textView.frame.size;
 	CGSize expectedSize = [JMMessageInputBar sizeOfText:self.textView.attributedText inTextView:self.textView];
+	
+	if (expectedSize.height == self.dynamicSizeConstraint.constant) {
+		return;
+	}
+	
 	CGSize replacementSize = [self replacementSizeForSize:expectedSize oldSize:oldSize];
 	BOOL isDynamic = replacementSize.height < expectedSize.height;
 	

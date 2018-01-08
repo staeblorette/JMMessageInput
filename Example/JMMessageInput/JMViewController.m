@@ -8,7 +8,8 @@
 
 #import "JMViewController.h"
 
-@interface JMViewController ()
+@interface JMViewController () <UITableViewDataSource>
+@property (nonatomic, strong) UITableViewController *testViewController;
 @end
 
 @implementation JMViewController
@@ -35,6 +36,25 @@
 	controller.inputBar.sendButton.backgroundColor = self.view.tintColor;
 	controller.inputBar.sendButton.tintColor = [UIColor whiteColor];
 	controller.inputBar.sendButton.layer.cornerRadius = 15;
+	
+	
+	UITableViewController *testSafeArea = [[UITableViewController alloc] init];
+	testSafeArea.tableView.dataSource = self;
+
+	self.testViewController = testSafeArea;
+	[controller addViewController:testSafeArea];
+}
+
+#pragma mark - <UITableViewDataSource>
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return NSLocale.availableLocaleIdentifiers.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+	cell.textLabel.text = NSLocale.availableLocaleIdentifiers[indexPath.row];
+	return cell;
 }
 
 @end

@@ -59,6 +59,11 @@
                             <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="54" translatesAutoresizingMaskIntoConstraints="NO" id="eeu-aO-N6G" customClass="JMMessageInputBar">
                                 <rect key="frame" x="0.0" y="613" width="375" height="54"/>
                                 <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9YQ-uB-OEX">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.46160908740000001" blue="0.15251525499999999" alpha="0.76404644690000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Sample Text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ybT-ov-XcG">
                                         <rect key="frame" x="8" y="8" width="308" height="38"/>
                                         <color key="backgroundColor" red="0.75435740848175925" green="0.98039215800000001" blue="0.29956786653059286" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -83,6 +88,7 @@
                                     <constraint firstItem="ybT-ov-XcG" firstAttribute="top" secondItem="eeu-aO-N6G" secondAttribute="topMargin" id="fhk-pA-eGi"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="backgroundView" destination="9YQ-uB-OEX" id="OFm-H7-6Mr"/>
                                     <outlet property="textView" destination="ybT-ov-XcG" id="o2W-og-TeY"/>
                                 </connections>
                             </view>
@@ -112,7 +118,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aQT-DV-tHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Jeg-4o-g8W" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1114" y="432"/>
+            <point key="canvasLocation" x="1112.8" y="431.33433283358323"/>
         </scene>
     </scenes>
 </document>
